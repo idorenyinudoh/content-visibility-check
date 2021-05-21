@@ -57,3 +57,7 @@ h1, p {
 .code {
     font-family: monospace;
 }
+section:not(:first-child) {
+    content-visibility: auto;
+    contain-intrinsic-size: 9999px;
+}
